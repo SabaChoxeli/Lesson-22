@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+table,
+td,
+tr {
+  border: solid black 1px;
+  border-collapse: collapse;
+}
+
+td {
+  width: 100px;
+  height: 100px;
+}
+
+table {
+  margin: 50px auto;
+}
+
+button {
+  width: 120px;
+  height: 70px;
+  background-color: black;
+  color: red;
+  cursor: pointer;
+  border: none;
+  font-size: 18px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
